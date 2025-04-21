@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>House Price Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏡 House Price Predictor</h1>
+    <form id="predictionForm">
+      <div class="input-group">
+        <label for="area">Total Area (sqft)</label>
+        <input type="number" id="area" required>
+      </div>
+
+      <div class="input-group">
+        <label for="bedrooms">Bedrooms</label>
+        <input type="number" id="bedrooms" required>
+      </div>
+
+      <div class="input-group">
+        <label for="bathrooms">Bathrooms</label>
+        <input type="number" id="bathrooms" required>
+      </div>
+
+      <div class="input-group">
+        <label for="location">Location</label>
+        <select id="location" required>
+          <option value="Chennai">Chennai</option>
+          <option value="Bangalore">Bangalore</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Mumbai">Mumbai</option>
+        </select>
+      </div>
+      
+
+      <!-- Add more fields here as needed... -->
+
+      <button type="submit">Predict Price</button>
+    </form>
+
+    <div id="resultBox">
+      <h1 id="result">Predicted Price will appear here...</h1>
+    </div>
+    <DIV>
+      <center>
+      <h5>CREATED BY SANJAITHUN S</h5>
+    </center>
+       </DIV>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
